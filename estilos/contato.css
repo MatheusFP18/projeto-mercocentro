@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../imagens/back.jpg);
+    background-size: cover;
+    background-color: #e61f267e;
+    display: block;
+    text-align: center;
+}
+
+html {
+    height: 100vh;
+}
+
+header {
+    background-color: #006134;
+    color: white;
+}
+
+#logomer {
+    width: 40px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#burguer {
+    background-color: #b90e13;
+    display: block;
+    padding: 10px;
+}
+
+#burguer:hover {
+    background-color: #002212;
+    border-radius: 3px;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul > li > a {
+    background-color: #E61F26;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+}
+
+menu a:hover {
+    background-color: #002212;
+    border-radius: 3px;
+}
+
+main {
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+}
+
+.telefone {
+    padding: 11.5px;
+}
+
+.logos {
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.logos:hover {
+    border: 2px solid #002212;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    transition: transform .3s, border .3s;
+}
+
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: blue;
+}
